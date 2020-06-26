@@ -14,23 +14,23 @@
 </head>
 
 <body>
-    <div class="container-fluid" style="max-width: none;height: 40px;padding: 0px;background-color: #000000;">
-        <div class="row row-cols-3" style="height: none;background-color: #000000;color: #ffffff;">
-            <div class="col-lg-3 d-xl-flex align-items-xl-center" style="background-color: #000000;height: 40px;padding: 0px 15px;"><i class="fa fa-home" style="font-size: 35px;padding: 0px 5px;"></i><i class="fa fa-plane" style="font-size: 35px;padding: 0px 5px;padding-left: 10px;padding-right: 10px;"></i><i class="fa fa-area-chart" style="font-size: 35px;"></i><i class="fa fa-bug"
-                    style="font-size: 35px;padding-left: 5px;padding-right: 5px;"></i><i class="fa fa-cog" style="font-size: 35px;padding: 0px 5px;"></i></div>
-            <div class="col-lg-5 col-xl-6 text-center d-xl-flex justify-content-xl-center align-items-xl-center"
-                style="height: 40px;background-color: #000000;"><span class="text-center" style="font-size: 18px;">CONNECTION NOT ESTABLISHED</span></div>
-            <div class="col-lg-4 col-xl-3 text-right d-lg-flex d-xl-flex justify-content-lg-end align-items-lg-center justify-content-xl-end align-items-xl-center"
-                style="height: 40px;background-color: #000000;padding-right: 15px;padding-left: 0px;"><i class="fas fa-satellite" style="font-size: 20px;padding: 0px 5px;"></i><i class="fas fa-globe" style="font-size: 20px;padding: 0px 5px;"></i><i class="fas fa-wifi" style="font-size: 20px;padding: 0px 5px;"></i><span style="padding-left: 15px;">00.00V</span>
+    <div class="container-fluid" style="max-width: none;padding: 0px;background-color: #000000;">
+        <div class="row" style="height: none;background-color: #000000;color: #ffffff;">
+            <div class="col-lg-3 d-xl-flex align-items-xl-center" style="background-color: #000000;padding: 0px 15px;"><i class="fa fa-home" style="font-size: 35px;padding: 0px 5px;padding-left: 10px;"></i><i class="fa fa-plane" style="font-size: 35px;padding: 0px 5px;padding-left: 10px;padding-right: 5px;"></i><i class="fa fa-area-chart" style="font-size: 30px;padding-left: 10px;padding-right: 5px;"></i>
                 <i
-                    class="fa fa-battery-4" style="font-size: 20px;padding: 0px 5px;"></i><span style="padding-left: 15px;">00:00 AM</span></div>
+                    class="fa fa-bug" style="font-size: 35px;padding-left: 5px;padding-right: 5px;"></i><i class="fa fa-cog" style="font-size: 35px;padding: 0px 5px;padding-left: 10px;"></i></div>
+            <div class="col-lg-5 col-xl-6 text-center d-xl-flex justify-content-xl-center align-items-xl-center" style="background-color: #000000;"><span class="text-center" style="font-size: 20px;">CONNECTION NOT ESTABLISHED</span></div>
+            <div class="col-lg-4 col-xl-3 text-right d-lg-flex d-xl-flex justify-content-lg-end align-items-lg-center justify-content-xl-end align-items-xl-center"
+                style="background-color: #000000;padding-right: 15px;padding-left: 0px;"><i class="fas fa-satellite" style="font-size: 20px;padding: 0px 5px;"></i><i class="fas fa-globe" style="font-size: 20px;padding: 0px 5px;"></i><i class="fas fa-wifi" style="font-size: 20px;padding: 0px 5px;"></i><span style="padding-left: 15px;">00.00V</span>
+                <i
+                    class="fa fa-battery-4" style="font-size: 20px;padding: 0px 5px;"></i><span style="padding-left: 15px;padding-right: 10px;">00:00 AM</span></div>
         </div>
     </div>
     <div class="container-fluid" style="padding: 0px;height: none;">
         <div class="row" style="height: none;background-color: #000000;color: #ffffff;padding-top: 10px;">
             <div class="col" style="padding: 0px 40px;font-size: 50px;padding-left: 38px;">
-                <p style="font-size: 2vm;margin-bottom: 0px;"><strong>ASCL GCS 3.0</strong><br></p>
-                <p style="margin-bottom: 0px;font-size: 1vm;"><strong>Complete the following settings or&nbsp;import a log data to continue :)</strong><br></p>
+                <p style="font-size: 5vw;margin-bottom: 0px;"><strong>ASCL GCS 3.0</strong><br></p>
+                <p style="margin-bottom: 0px;font-size: 3.2vw;"><strong>Complete the following settings or&nbsp;import a log data to continue :)</strong><br></p>
             </div>
         </div>
     </div>
@@ -38,47 +38,168 @@
         <div class="row" style="padding: 0px;margin: 0px;">
             <div class="col" style="background-color: #000000;color: #ffffff;padding: 15px;">
                 <div class="row">
-                    <div class="col">
-                        <div class="card text-white border-primary">
-                            <div class="card-header"><span class="float-left d-xl-flex" style="font-size: 24px;">Network Settings&nbsp;</span><span class="float-right d-xl-flex"><button class="btn btn-primary float-right" type="button">CONNECT</button></span></div>
-                            <div class="card-body"
-                                style="height: 300px;">
-                                <p class="card-text">Address: Port</p><input class="border rounded" type="text">
-                                <p class="card-text">Baudrate</p><input class="border rounded" type="text"></div>
+                    <div class="col" style="margin-bottom: 0px;padding-bottom: 10px;">
+                        <div class="card text-white border-info" style="height: none;">
+                            <div class="card-header"><span class="float-left d-xl-flex" style="font-size: 24px;">[1] Network Settings&nbsp;</span><span class="float-right d-xl-flex"><button class="btn btn-primary float-right" type="button">CONNECT</button></span></div>
+                            <div class="card-body">
+                                <form>
+                                    <div class="form-group"><label for="network" style="color: #ffffff;"><strong>Connection</strong><br></label><input class="form-control" type="text" placeholder="UART" name="network"></div>
+                                    <div class="form-row">
+                                        <div class="col">
+                                            <div class="form-group"><label for="baudrate" style="color: #ffffff;"><strong>Addres: Port</strong></label><input class="form-control" type="text" placeholder="COM:11" name="Address (port)"></div>
+                                        </div>
+                                        <div class="col">
+                                            <div class="form-group"><label for="country" style="color: #ffffff;"><strong>Baudrate</strong></label><input class="form-control" type="text" placeholder="115200" name="Baudrate"></div>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
                         </div>
                     </div>
-                    <div class="col">
-                        <div class="card text-secondary">
-                            <div class="card-body" style="height: 300px;">
-                                <h4 class="card-title">Title</h4>
-                                <h6 class="text-muted card-subtitle mb-2">Subtitle</h6>
-                                <p class="card-text">Nullam id dolor id nibh ultricies vehicula ut id elit. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus.</p><a class="card-link" href="#">Link</a><a class="card-link"
-                                    href="#">Link</a></div>
-                        </div>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col">
-                        <div class="card text-secondary">
-                            <div class="card-body" style="height: 400px;">
-                                <h4 class="card-title">Title</h4>
-                                <h6 class="text-muted card-subtitle mb-2">Subtitle</h6>
-                                <p class="card-text">Nullam id dolor id nibh ultricies vehicula ut id elit. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus.</p><a class="card-link" href="#">Link</a><a class="card-link"
-                                    href="#">Link</a></div>
+                    <div class="col" style="padding-bottom: 10px;">
+                        <div class="card text-secondary border-info">
+                            <div class="card-header"><span class="float-left d-xl-flex" style="font-size: 24px;color: #ffffff;">[2] Profile Settings</span><span class="float-right d-xl-flex"><button class="btn btn-primary float-right" type="button">CONFIRM</button></span></div>
+                            <div
+                                class="card-body">
+                                <form>
+                                    <div class="form-row">
+                                        <div class="col">
+                                            <div class="form-group"><label for="baudrate" style="color: #ffffff;"><strong>Call Sign</strong></label><input class="form-control" type="text" placeholder="QUAD001" name="Callsign" maxlength="7"></div>
+                                        </div>
+                                        <div class="col">
+                                            <div class="form-group"><label for="country" style="color: #ffffff;"><strong>Sortie</strong></label><input class="form-control" type="text" placeholder="123" name="Sortie" disabled="" readonly=""></div>
+                                        </div>
+                                    </div>
+                                    <div class="form-row">
+                                        <div class="col">
+                                            <div class="form-group"><label for="baudrate" style="color: #ffffff;"><strong>Operator</strong></label><input class="form-control" type="text" placeholder="John" name="Operator"></div>
+                                        </div>
+                                        <div class="col">
+                                            <div class="form-group"><label for="country" style="color: #ffffff;"><strong>Pilot</strong></label><input class="form-control" type="text" placeholder="Doe" name="Pilot"></div>
+                                        </div>
+                                    </div>
+                                </form>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="col" style="background-color: #000000;color: #ffffff;padding: 15px;">
-                <div class="card text-secondary">
-                    <div class="card-body" style="height: 700px;">
-                        <h4 class="card-title">Title</h4>
-                        <h6 class="text-muted card-subtitle mb-2">Subtitle</h6>
-                        <p class="card-text">Nullam id dolor id nibh ultricies vehicula ut id elit. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus.</p><a class="card-link" href="#">Link</a><a class="card-link"
-                            href="#">Link</a></div>
+            <div class="row">
+                <div class="col" style="padding-top: 10px;">
+                    <div class="card text-secondary border-info">
+                        <div class="card-header"><span class="float-left d-xl-flex" style="font-size: 24px;color: #ffffff;">[3] Pre-flight Inspection</span><span class="float-right d-xl-flex"><button class="btn btn-primary float-right" type="button">START</button></span></div>
+                        <div
+                            class="card-body">
+                            <div class="row">
+                                <div class="col-4">
+                                    <h4 class="small font-weight-bold" style="color: #ffffff;margin: 0px;">Battery<span class="float-right" style="color: #ffffff;">20%</span></h4>
+                                    <div class="progress d-xl-flex progress-sm mb-3" style="margin: 0px;height: 10px;margin-bottom: 0px;padding-right: 0px;">
+                                        <div class="progress-bar bg-danger progress-bar-striped" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100" style="width: 20%;"><span class="sr-only">20%</span></div>
+                                    </div>
+                                    <h4 class="small font-weight-bold" style="color: #ffffff;margin: 0px;">RC1<span class="float-right" style="color: #ffffff;">40%</span></h4>
+                                    <div class="progress d-xl-flex progress-sm mb-3" style="margin: 0px;margin-bottom: 0px;height: 10px;">
+                                        <div class="progress-bar bg-info progress-bar-striped" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 40%;"><span class="sr-only">40%</span></div>
+                                    </div>
+                                    <h4 class="small font-weight-bold" style="color: #ffffff;margin: 0px;">RC2<span class="float-right" style="color: #ffffff;">60%</span></h4>
+                                    <div class="progress progress-sm mb-3" style="margin: 0px;margin-bottom: 0px;height: 10px;">
+                                        <div class="progress-bar bg-info progress-bar-striped" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;"><span class="sr-only">60%</span></div>
+                                    </div>
+                                    <h4 class="small font-weight-bold" style="color: #ffffff;margin: 0px;">RC3<span class="float-right" style="color: #ffffff;">10%</span></h4>
+                                    <div class="progress progress-sm mb-3" style="height: 10px;margin: 0px;margin-bottom: 0px;">
+                                        <div class="progress-bar bg-info progress-bar-striped" aria-valuenow="10" aria-valuemin="0" aria-valuemax="100" style="width: 10%;"><span class="sr-only">10%</span></div>
+                                    </div>
+                                    <h4 class="small font-weight-bold" style="color: #ffffff;margin: 0px;">RC4<span class="float-right" style="color: #ffffff;">50%</span></h4>
+                                    <div class="progress progress-sm mb-3" style="margin: 0px;margin-bottom: 0px;height: 10px;">
+                                        <div class="progress-bar bg-info progress-bar-striped" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width: 50%;"><span class="sr-only">50%</span></div>
+                                    </div>
+                                    <h4 class="small font-weight-bold" style="color: #ffffff;margin-bottom: 0px;height: none;">RC5<span class="float-right" style="color: #ffffff;">90%</span></h4>
+                                    <div class="progress progress-sm mb-3" style="margin: 0px;margin-bottom: 0px;height: 10px;">
+                                        <div class="progress-bar bg-primary progress-bar-striped" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width: 90%;"><span class="sr-only">90%</span></div>
+                                    </div>
+                                    <h4 class="small font-weight-bold" style="color: #ffffff;margin-bottom: 0px;height: none;">RC6<span class="float-right" style="color: #ffffff;">50%</span></h4>
+                                    <div class="progress progress-sm mb-3" style="margin: 0px;margin-bottom: 0px;height: 10px;">
+                                        <div class="progress-bar bg-primary progress-bar-striped" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width: 50%;"><span class="sr-only">50%</span></div>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <form>
+                                        <div class="form-group"><label for="signature" style="color: #ffffff;"><strong>Check List</strong><br></label>
+                                            <ul class="list-group">
+                                                <li class="list-group-item">
+                                                    <div class="form-row align-items-center no-gutters">
+                                                        <div class="col mr-2">
+                                                            <h6 class="mb-0" style="color: #ffffff;"><strong>Avionics:</strong></h6><span class="text-xs" style="color: #ffffff;">Battery health, Tx/Rx status, stable network.</span></div>
+                                                        <div class="col-auto">
+                                                            <div class="custom-control custom-checkbox"><input class="custom-control-input" type="checkbox" id="formCheck-1"><label class="custom-control-label" for="formCheck-1"></label></div>
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                                <li class="list-group-item">
+                                                    <div class="form-row align-items-center no-gutters">
+                                                        <div class="col mr-2">
+                                                            <h6 class="mb-0" style="color: #ffffff;"><strong>Structural Integrity:</strong></h6><span class="text-xs" style="color: #ffffff;">Side note here</span></div>
+                                                        <div class="col-auto">
+                                                            <div class="custom-control custom-checkbox"><input class="custom-control-input" type="checkbox" id="formCheck-3"><label class="custom-control-label" for="formCheck-3"></label></div>
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                                <li class="list-group-item">
+                                                    <div class="form-row align-items-center no-gutters">
+                                                        <div class="col mr-2">
+                                                            <h6 class="mb-0" style="color: #ffffff;"><strong>Surroundings:</strong></h6><span class="text-xs" style="color: #ffffff;">Make sure no one is around.</span></div>
+                                                        <div class="col-auto">
+                                                            <div class="custom-control custom-checkbox"><input class="custom-control-input" type="checkbox" id="formCheck-4"><label class="custom-control-label" for="formCheck-4"></label></div>
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="form-group">
+                                            <div class="custom-control custom-switch"><input class="custom-control-input" type="checkbox" id="formCheck-5"><label class="custom-control-label" for="formCheck-5" style="color: #ffffff;"><strong>I acknowledge that the pre-flight inspection has thoroughly or partially completed with potential risks.</strong></label></div>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                    </div>
                 </div>
             </div>
         </div>
+    </div>
+    <div class="col" style="background-color: #000000;color: #ffffff;padding: 15px;">
+        <div class="card text-secondary border-info">
+            <div class="card-header"><span class="float-left d-xl-flex" style="font-size: 24px;color: #ffffff;">Logbook (Playback only)</span><span class="float-right d-xl-flex"><button class="btn btn-primary float-right" type="button">IMPORT</button></span></div>
+            <div class="card-body">
+                <form>
+                    <div class="form-row">
+                        <div class="col">
+                            <div class="form-group"><label for="baudrate" style="color: #ffffff;"><strong>Call Sign</strong><br></label><input class="form-control" type="text" placeholder="QUAD001" name="Address (port)" maxlength="7"></div>
+                        </div>
+                        <div class="col">
+                            <div class="form-group"><label for="country" style="color: #ffffff;"><strong>Date</strong></label><input class="form-control" type="date"></div>
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="col">
+                            <div class="form-group"><label for="baudrate" style="color: #ffffff;"><strong>Sortie</strong></label><select class="form-control"><optgroup label="mm/dd/yyyy"><option value="12" selected="">123</option><option value="13">124</option><option value="14">125</option></optgroup></select></div>
+                        </div>
+                        <div class="col">
+                            <div class="form-group"><label for="country" style="color: #ffffff;"><strong>Time</strong></label><input class="form-control" type="text" placeholder="11:25 AM" name="Baudrate" disabled="" readonly=""></div>
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="col">
+                            <div class="form-group"><label for="baudrate" style="color: #ffffff;"><strong>Operator</strong></label><input class="form-control" type="text" placeholder="John" name="Address (port)" disabled="" readonly=""></div>
+                        </div>
+                        <div class="col">
+                            <div class="form-group"><label for="country" style="color: #ffffff;"><strong>Pilot</strong></label><input class="form-control" type="text" placeholder="Doe" name="Baudrate" disabled="" readonly=""></div>
+                        </div>
+                    </div>
+                    <div class="form-group"><label for="network" style="color: #ffffff;"><strong>Comment</strong><br></label><textarea class="border rounded form-control" disabled="" readonly="" placeholder="`${rate}` <br /> Tested with the gains P 1.0, I 0.2, and D 1.8. Performance was moderate."
+                            rows="10"></textarea></div>
+                </form>
+            </div>
+        </div>
+    </div>
+    </div>
     </div>
     <script src="assets/js/jquery.min.js"></script>
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
